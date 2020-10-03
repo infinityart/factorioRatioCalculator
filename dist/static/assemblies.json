@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Assembling machine 1",
+        "craftingSpeed": 0.5
+    },
+    {
+        "id": 2,
+        "name": "Assembling machine 2",
+        "craftingSpeed": 0.75
+    }
+]

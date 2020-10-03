@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Pipe",
+        "productsProduced": 1,
+        "craftingTime": 0.5,
+        "producedFrom": "assembly",
+        "ingredients": [
+            {
+                "id": 3,
+                "itemsNeeded": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Pipe to ground",
+        "productsProduced": 2,
+        "craftingTime": 0.5,
+        "producedFrom": "assembly",
+        "ingredients": [
+            {
+                "id": 1,
+                "itemsNeeded": 10
+            },
+            {
+                "id": 3,
+                "itemsNeeded": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Iron plate",
+        "productsProduced": 1,
+        "craftingTime": 3.2,
+        "producedFrom": "oven",
+        "ingredients": [
+            {
+                "id": 4,
+                "itemsNeeded": 1
+            }
+        ] 
+    }, 
+    {
+        "id": 4,
+        "name": "Iron ore"
+    }
+]

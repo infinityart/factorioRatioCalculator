@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <div id="desiredProductContainer">
+            <select id="desiredProduct">
+                <option disabled selected>Kies een product</option>
+            </select>
+            <input id="goal" type="number" min="1" step="1" placeholder="items/min" value="1"/>
+        </div>
+        <div id="producedFromContainer"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Items per second</th>
+                    <th>Items per minute</th>
+                    <th>Assemblies needed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="itemsPerSecond"></td>
+                    <td id="itemsPerMinute"></td>
+                    <td id="assembliesNeeded"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
